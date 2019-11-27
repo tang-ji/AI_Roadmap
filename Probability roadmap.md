@@ -132,22 +132,51 @@
 
 ## 			Discriminative
 
-- [ ] Linear Regression
+ Unlike the generative modelling, which studies from the joint probability $P(x,y)$, the discriminative modeling studies the $P(y|x)$ or the direct maps the given unobserved variable $x$ class label $y$ depended on the observed variables (training samples). 
+
+- [x] Linear Regression
 
 ## Generative
 
 ### Unsupervised
 
 - [ ] VAE
+
+   VAEs are *directed probabilistic graphical models* (DPGM) whose posterior is approximated by a neural network, forming an autoencoder-like architecture. 
+
 - [ ] GAN
 
 ### Supervised
 
-- [ ] Naive Bayes
+- [ ] Naïve Bayes
+
+  All naive Bayes classifiers assume that the value of a particular feature is independent of the value of any other feature, given the class variable. 
+
 - [ ] Linear Discriminant Analysis
+
 - [ ] Logistic Regression
 
-## Baysian
+  The goal is to model the probability of a random variable $Y$ being 0 or 1 given experimental data.  The logistic function is a sigmoid function.
+
+# Bayesian
+
+## Joint Probability
+
+## Posterior
+
+ The posterior probability is the probability of the parameters $\theta$ given the evidence $X$: $p(\theta |X)$.
+
+## Evidence
+
+## Likelihood
+
+## Inference
+
+### Estimator
+
+### Bayesian Inference
+
+### Statistical Hypothesis
 
 
 
