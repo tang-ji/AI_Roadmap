@@ -1,3 +1,5 @@
+
+
 # Training
 
 ## score
@@ -126,11 +128,37 @@
 ## Activation Function
 
 - [ ] Sigmoid
+
+  ![img](https://pic4.zhimg.com/80/v2-208a4aa5dc657fe86919f3549d853793_hd.jpg)
+
+  the max derivative is smaller than 0.25 -> gradient vanishing
+
 - [ ] tanh
+
+  ![[公式]](https://www.zhihu.com/equation?tex=%5Ctanh+%28x%29%3D%5Cfrac%7Be%5E%7Bx%7D-e%5E%7B-x%7D%7D%7Be%5E%7Bx%7D%2Be%5E%7B-x%7D%7D%5C%5C)
+
+  ![img](https://pic4.zhimg.com/80/v2-66a7e4fcf11a2d85c15e7bf7b88b2d1b_hd.jpg)
+
+  better than sigmoid but the derivative is still smaller than 1
+
 - [ ] ReLU
+
+  the derivative is always 1, solve gradient vanishing/ gradient exploding, facilate computation and training.
+
+  input smaller than 0 always output 0, the derivative isn't continue around 0
+
 - [ ] Leakly ReLU
+
+  ![img](https://pic4.zhimg.com/80/v2-3ab1bd8fb85542a0c85eb907b73fa327_hd.jpg)
+
+  solve the segment smaller than 0
+
 - [ ] PReLU
+
 - [ ] ELU
+
+  solve the continuity of derivative around 0
+
 - [ ] Maxout
 
 # Linear Regression
